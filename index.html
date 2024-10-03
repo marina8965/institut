@@ -1,104 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ресторан Confusion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        h1 {
+            color: #000; /* Черный цвет заголовка */
+        }
+        .bg-orange {
+            background-color: #ffa500; /* Оранжевый фон */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <div>
+    <header class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
                     <h1>Ресторан Confusion</h1>
-                    <p>Мы черпаем вдохновение в лучших кухнях мира и создаем уникальные шедевры кулинарии. Наши блюда придутся по Вам вкусу!</p>
-                </div>
-                <div>
+                    <p>Мы черпаем вдохновение в лучших кухнях мира и создаем уникальные шедевры кулинарии. Наши блюда придутся Вам по вкусу!</p>
                 </div>
             </div>
         </div>
     </header>
-  
-        <div class="container">
-    <div>
-        <div>
-            <div>
+    
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-12">
                 <h3>Наши кулинарные творения</h3>
             </div>
-            <div>
+            <div class="col-12 col-md-6">
                 <h2>Пицца Юта</h2>
-                <p>Уникальное сочетание индийского утхаппама (блинов) и итальянской пиццы, украшенное оливками чериньола, спелыми помидорами черри, луком Видалия, чили Гунтур и панировкой Баффало.</p>
+                <p class="d-none d-md-block">Уникальное сочетание индийского утхаппама (блинов) и итальянской пиццы, украшенное оливками чериньола, спелыми помидорами черри, луком Видалия, чили Гунтур и панировкой Баффало.</p>
             </div>
         </div>
-        <div>
-            <div>
+        
+        <div class="row py-5 bg-orange">
+            <div class="col-12">
                 <h3>Акции месяца</h3>
             </div>
-            <div>
+            <div class="col-12 col-md-6">
                 <h2>Шикарное предложение на выходных</h2>
-                <p>Предлагаем аппетитные наборы с выбором из пяти различных салатов, шести заманчивых закусок, шести основных блюд и пяти лучших десертов. Бесплатные газированные и безалкогольные напитки. Всего за 300 рублей на человека </p>
+                <p class="d-none d-md-block">Предлагаем аппетитные наборы с выбором из пяти различных салатов, шести заманчивых закусок, шести основных блюд и пяти лучших десертов. Бесплатные газированные и безалкогольные напитки. Всего за 300 рублей на человека.</p>
             </div>
         </div>
-        <div>
-            <div>
+        
+        <div class="row py-5">
+            <div class="col-12">
                 <h3>Познакомьтесь с нашими кулинарами</h3>
             </div>
-            <div>
+            <div class="col-12 col-md-6">
                 <h2>Альберто Сомайя</h2>
                 <h4>Главный шеф-повар</h4>
-                <p>Отмеченный наградами Мишлен шеф-повар с большим международным опытом работы в кулинарном мире, он специализируется на создании аппетитных индо-итальянских блюд фьюжн.</p>
+                <p class="d-none d-md-block">Отмеченный наградами Мишлен шеф-повар с большим международным опытом работы в кулинарном мире, он специализируется на создании аппетитных индо-итальянских блюд фьюжн.</p>
             </div>
         </div>
     </div>
-    <footer>
-        <div>
-            <div>             
-                <div>
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
                     <h5>Ссылки</h5>
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Меню</a></li>
-                        <li><a href="#">Контакты</a></li>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Главная</a></li>
+                        <li><a href="#" class="text-white">О нас</a></li>
+                        <li><a href="#" class="text-white">Меню</a></li>
+                        <li><a href="#" class="text-white">Контакты</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-12 col-md-4">
                     <h5>Наш адрес</h5>
                     <address>
-		              Россия<br>
-		              г. Пенза<br>
-		              ул. Московская 1<br>
-		              Тел.: +7 937 222 5678<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                        Россия, г. Пенза, ул. Московская 1<br>
+                        Тел.: +7 937 222 5678<br>
+                        Email: <a href="mailto:confusion@food.net" class="text-white">confusion@food.net</a>
+                    </address>
                 </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
+                <div class="col-12 col-md-4">
+                    <h5>Соцсети</h5>
+                    <a href="http://google.com/+" class="text-white">Google+</a><br>
+                    <a href="http://www.facebook.com/profile.php?id=" class="text-white">Facebook</a><br>
+                    <a href="http://www.linkedin.com/in/" class="text-white">LinkedIn</a><br>
+                    <a href="http://twitter.com/" class="text-white">Twitter</a><br>
+                    <a href="http://youtube.com/" class="text-white">YouTube</a><br>
+                    <a href="mailto:" class="text-white">Mail</a>
                 </div>
-           </div>
-           <div>             
-                <div>
+
+
+</div>
+            <div class="row">
+                <div class="col-12 text-center mt-3">
                     <p>© Copyright 2020 Ristorante Con Fusion</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
